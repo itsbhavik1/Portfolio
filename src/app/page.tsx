@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-10 md:justify-between">
           <div className="md:flex-1">
             <h1 className="text-4xl font-bold text-center md:text-left">
-              Kon'nichiwa! I'm{" "}
+              Kon&apos;nichiwa! I'm{" "}
               <b className="hover:underline transition-all duration-100">
                 Bhavik Vishal Sharma
               </b>{" "}
