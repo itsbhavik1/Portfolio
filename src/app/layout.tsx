@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Bhavik Vishal Sharma - Web Developer & Software Engineer",
-  description: "I'm a web developer and software engineer with a passion for creating beautiful and functional websites and applications.",
+  description: "I am a web developer and software engineer with a passion for creating beautiful and functional websites and applications.",
 };
 
 export default function RootLayout({
