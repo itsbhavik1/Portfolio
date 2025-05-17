@@ -12,7 +12,6 @@ import { Spotlight } from "@/components/ui/spotlight";
 import { Card, CardContent } from "@/components/ui/card";
 import LinkedIn from "@/components/svg/linked-in";
 import Github from "@/components/svg/github";
-import Twitter from "@/components/svg/twitter";
 import { Separator } from "@/components/ui/separator";
 import { Moon } from "lucide-react";
 
@@ -26,7 +25,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-10 md:justify-between">
           <div className="md:flex-1">
             <h1 className="text-4xl font-bold text-center md:text-left">
-              Kon'nichiwa! I&apos;m{" "}
+              Kon'nichiwa! I'm{" "}
               <b className="hover:underline transition-all duration-100">
                 Bhavik Vishal Sharma
               </b>{" "}
@@ -34,7 +33,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 text-muted-foreground max-w-md text-md font-medium text-center md:text-left">
               Seasoned Fullstack Engineer with 3 years of experience in building
-              web apps. I&apos;m confident in taking projects from scratch to
+              web apps. I'm confident in taking projects from scratch to
               production. Skilled in both frontend and backend, with a small
               knack for deployment.
             </p>
@@ -64,7 +63,7 @@ export default function Home() {
           </Button>
           <h1 className="text-5xl font-semibold">Check out my latest work</h1>
           <h3 className="text-muted-foreground text-center text-lg font-medium">
-            I&apos;ve worked on a variety of projects, from simple websites to
+            I've worked on a variety of projects, from simple websites to
             complex web applications. Here are a few of my favorites.
           </h3>
           <AllProjects />
@@ -87,7 +86,7 @@ export default function Home() {
     >
       LinkedIn
     </Link>{' '}
-    and I&apos;ll respond whenever I can.
+    and I'll respond whenever I can.
   </p>
 </div>
 
