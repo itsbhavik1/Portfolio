@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/button";
 import AllBadges from "@/components/ui/all-badges";
 import AllProjects from "@/components/ui/all-projects";
 import AllEducation from "@/components/ui/all-education";
+import AllAchievements from "@/components/ui/all-achievements";
+import AllWorkExperience from "@/components/ui/all-work-experience";
 import { Spotlight } from "@/components/ui/spotlight";
 import { Card, CardContent } from "@/components/ui/card";
 import LinkedIn from "@/components/svg/linked-in";
@@ -57,6 +59,9 @@ export default function Home() {
             <AllBadges />
           </div>
         </div>
+        <div className="py-10">
+          <AllWorkExperience />
+        </div>
         <div className="py-10 mx-auto flex flex-col items-center gap-2">
           <Button size="sm" variant="secondary">
             My Projects
@@ -72,19 +77,23 @@ export default function Home() {
           <p className="text-2xl font-semibold">Education</p>
           <AllEducation />
         </div>
+        <div className="py-10">
+          <p className="text-2xl font-semibold">Achievements</p>
+          <AllAchievements />
+        </div>
         <div className="py-2 pb-20 flex flex-col items-center gap-2">
   <Button size="sm" variant="secondary">
     Contact
   </Button>
   <h1 className="text-5xl font-semibold mt-1">Get in Touch</h1>
   <p className="text-muted-foreground text-center text-lg font-medium max-w-xl mx-auto">
-    Want to chat? Connect with me on
+    Want to chat? Connect with me on - 
     <Link
       href="https://www.linkedin.com/in/bhavik-sharma-09a6391ab/"
       target="_blank"
       className="text-blue-500 hover:underline"
     >
-      LinkedIn
+       LinkedIn
     </Link>{' '}
     and I will respond whenever I can.
   </p>

@@ -11,7 +11,6 @@ const allBadges: string[] = [
   "WebSocket",
   "PostgreSQL",
   "MongoDB",
-  "Tanstack Query",
   "Rest APIs",
   "Tailwind CSS",
   "ShadCN",
