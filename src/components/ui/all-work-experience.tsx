@@ -10,7 +10,7 @@ const AllWorkExperience = () => {
           <p className="text-lg font-medium">IT Intern</p>
           <p className="text-muted-foreground">Spicejet | May - June (2024)</p>
           <p className="mt-2">
-          Worked on the development of SpiceJet's upcoming mobile application for cabin crew using React Native. Contributed to designing and implementing user interface components, ensuring a seamless and intuitive user experience. Collaborated closely with the design and backend teams to integrate APIs and optimize performance.
+          Worked on the development of SpiceJet\u0027s upcoming mobile application for cabin crew using React Native. Contributed to designing and implementing user interface components, ensuring a seamless and intuitive user experience. Collaborated closely with the design and backend teams to integrate APIs and optimize performance.
           </p>
         </div>
         <div className="relative">
